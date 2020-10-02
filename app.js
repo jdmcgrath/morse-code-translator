@@ -101,7 +101,8 @@ class translator {
     let message = document.getElementById("input");
     let inputText = message.value.toLowerCase();
     if (inputText.length === 0) {
-      console.log("Please write a message to translate");
+        document.getElementById("output").innerHTML =
+          "Please write a message to translate";
     } else {
       // Split the message into an array
       let input_array = inputText.split("");
@@ -121,7 +122,8 @@ class translator {
     let message = document.getElementById("input");
     let inputText = message.value;
     if (inputText.length === 0) {
-      console.log("Please write a message to translate");
+        document.getElementById("output").innerHTML =
+          "Please write a message to translate";
     } else {
       // Split the message into an array of individual letters based on spaces
       let input_array = inputText.split(" ");
