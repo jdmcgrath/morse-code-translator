@@ -83,17 +83,17 @@ class translator {
             console.log("Please write a message to translate")
         }
         else {
-            // Split the message into an array of 
-            let input_array = inputText.split(" ");
-            // Map the input array onto the output array but making sure to convert on the way
-            let output_array = input_array.map( (letter) => convert(letter));
-            output_array = output_array.join("");
-            document.getElementById("output").innerHTML = (output_array);
+          // Split the message into an array of individual letters based on spaces
+          let input_array = inputText.split(" ");
+          // Map the input array onto the output array but making sure to convert on the way
+          let output_array = input_array.map((letter) => convert(letter));
+          output_array = output_array.join("");
+          document.getElementById("output").innerHTML = output_array;
 
-            function convert(letter) {
-                // 1. For each letter, return the output of this.alphabet."letter"
-                return alphabet[letter]
-            }
+          function convert(letter) {
+            // 1. For each letter, return the output of this.alphabet."letter"
+            return alphabet[letter];
+          }
         }
     }
 }
