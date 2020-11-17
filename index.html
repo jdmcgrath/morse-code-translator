@@ -1,19 +1,37 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Morse Code Translator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="main">
-    <h1 class="title">Morse Code Translator</h1>
-    <div class="box">
-    <input type="text" placeholder="Enter Text" id="input" class="blank">
-    <input type="submit" class="guess" value="Translate to Morse" id="translate" onclick="app.translateMorse()">
-    <input type="submit" class="guess" value="Translate to English" id="translate" onclick="app.translateEnglish()">
-    <p id="output"></p>
-</div></div>
-    <script src="app.js"></script>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Morse Code Translator</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="main">
+			<header class="title">
+				<img class="hero_img" src="./morse-code.svg" alt="morse code icon" />
+				<h1 class="title_h1">Morse Code Translator</h1>
+			</header>
+			<div class="box">
+				<input type="text" placeholder="Enter Text" id="input" class="blank" />
+				<div class="buttons">
+					<input
+						type="submit"
+						class="button button1"
+						value="Translate to Morse"
+						id="translate"
+						onclick="app.translateMorse()"
+					/>
+					<input
+						type="submit"
+						class="button button2"
+						value="Translate to English"
+						id="translate"
+						onclick="app.translateEnglish()"
+					/>
+				</div>
+				<p id="output"></p>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
 </html>

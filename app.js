@@ -126,8 +126,7 @@ class translator {
           "Please write a message to translate";
     } else {
       // Split the message into an array of individual letters based on spaces
-      let input_array = inputText.split(" ");
-      console.log(input_array);
+      let input_array = inputText.split(' ');
       // Map the input array onto the output array but making sure to convert on the way
       let output_array = input_array.map((letter) => convert(letter));
       output_array = output_array.join("");
