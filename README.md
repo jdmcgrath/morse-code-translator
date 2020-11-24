@@ -4,7 +4,7 @@ As a kid at school, me and my friends loved to write little Ciphers when passing
 <br /> <br />
 This translator takes the pain out of encrypting and decrypting Morse code messages, since it does it for you! It uses key value pairs inside JavaScript to translate each letter of Morse to English (or vice-versa). <br />
 Although I won't be messaging my friends on Facebook in Morse Code, maybe you could! <br /><br />
-Not quite as clever as Google Translate, but we're learning!
+Google Translate could learn a thing or two from this honestly.
 
 ### Tech
 
