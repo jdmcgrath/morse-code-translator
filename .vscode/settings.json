@@ -1,4 +1,5 @@
 {
     "prettier.useTabs": true,
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "liveServer.settings.port": 5501
 }

@@ -65,7 +65,6 @@ body {
 }
 
 .button {
-  width: auto;
   padding: 0 20px;
   color: white;
   background: #5cb8c7;
@@ -75,6 +74,7 @@ body {
   border: none;
   text-align: center;
   height: 45px;
+  width: 260px;
   margin: 20px 20px;
 }
 
